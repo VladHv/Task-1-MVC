@@ -6,7 +6,6 @@ package ua.javatraining.mvc;
 
 public class Model {
 
-    private String finalMessage;
     private String wordHello;
     private String wordWorld;
 
@@ -20,6 +19,6 @@ public class Model {
     }
 
     public String getFinalMessage() {
-        return finalMessage = wordHello + " " + wordWorld;
+        return wordHello + " " + wordWorld;
     }
 }
